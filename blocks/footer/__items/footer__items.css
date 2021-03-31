@@ -1,0 +1,19 @@
+.footer__items {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 321px) and (max-width: 550px) {
+  .footer__items {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer__items {
+    flex-direction: column;
+  }
+}
