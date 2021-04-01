@@ -18,6 +18,12 @@
   }
 }
 
+@media screen and (max-width: 715px) {
+  .place {
+    max-width: 460px;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .place {
     margin-bottom: 50px;
